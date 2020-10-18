@@ -13,7 +13,7 @@ public class CameraMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.position = new Vector3(target.position.x , target.position.y , transform.position.z);
     }
 
     // Update is called once per frame
